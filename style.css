@@ -30,13 +30,14 @@ body{
     background-color: var(--Color-main);
     justify-content: center;
     flex-direction: column;
+    padding-inline: 15px;
 }
 
 main{
     background-color: var(--Bg-Button);
     padding: 8px 0px;
     border-radius: 7px;
-    width: 500px;
+    border: 1px solid var(--Boder);
 }
 
 .Anwsor{
@@ -77,5 +78,60 @@ main{
     transform: rotate(180deg);
 }
 
+.Mokatil {
+    color: var(--Color-Normal);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+}
 
+.Mokatil span {
+    color: var(--Color-Normal);
+    text-decoration: underline var(--Color-Basic);
+    transition: all 0.3s;
+    margin: 0;
 
+}
+
+.uil-twitter{
+    color: var(--Color-Button);
+    background-color: var(--Bg-Button);
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    border: 1px solid var(--Boder);
+    cursor: pointer;
+    margin: 0;
+    transition: all 0.3s;
+}
+
+.uil-twitter:hover {
+    color: var(--Color-Normal);
+    margin: 0;
+    background-color: var(--Boder-Basic);
+    border: 1px solid var(--Color-Basic);
+}
+
+.CopyRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Question1{
+    border: 0;
+}
+
+.Question1.active{
+    border-bottom: 1px solid var(--Boder);
+}
+
+.FQA{
+    font-weight: 500;
+    margin-bottom: 20px;
+    background-color: #8c00ff50;
+    padding: 8px 20px;
+    border-radius: 7px;
+    border: 1px solid #8c00ff;
+}
